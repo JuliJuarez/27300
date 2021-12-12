@@ -4,9 +4,125 @@
 	<title></title>
 	<meta charset="utf-8">
 	<meta name=viewport content="width=devide-width, initial-scale=1">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="css/estilos.css"> 
+	<link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
 </head>
 <body>
+	<nav id="menu" class="navbar navbar-light bg-light navbar navbar-expand-lg navbar-light bg-light menu">
+		 <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+      	<span class="navbar-toggler-icon"></span>
+    	</button>
+		<!--<a class="navbar-brand" href="index.html">
+		<img src="imagenes/logo.png" width="50" height="45" class="d-inline-block align-top" alt="Logo">
+		</a>
+		</div>-->
+		<div class= "collapse navbar-collapse" id="navbarTogglerDemo01">
+      		<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        		<li class="nav-item">
+          		<a class="nav-link active" aria-current="page" href="index.html">Home</a>
+        		</li>
+        		<li class="nav-item">
+          		<a class="nav-link" aria-current="page" href="about.html">About</a>
+        		</li>
+        		<li class="nav-item">
+          		<a class="nav-link" aria-current="page" href="services.html">Servicios</a>
+        		</li>
+        		<li class="nav-item">
+          		<a class="nav-link" aria-current="page" href="portfolio.html">Portfolio</a>
+        		</li>
+        		<li class="nav-item">
+          		<a class="nav-link" aria-current="page" href="contact.html">Contacto</a>
+        		</li>
+        		<li class="nav-item iconos">
+          		<a href="https://www.facebook.com/" target="_black" i class="fab fa-facebook decoracion"></i></a>
+        		</li>
+        		<li class="nav-item iconos">
+          		<a href="https://www.instagram.com/" target="_black" i class="fab fa-instagram decoracion"></i></a>
+        		</li>
+        	</ul>
+        </div>	
+	</nav>
 
+	<div class="titulo">
+		<p class="animate__animated animate__bounce"><strong>WE ARE BERNA</strong></p>
+	</div>
+	<div>
+		<p class="subtitulo">Somos especialistas en diseño. Llegamos para encontrar lo que realmente está en el corazón de tu marca, creando diseños web y gráficos únicos que reflejen tu misión y propósito.</p>
+	</div>
+<!-- imagen de fondo -->
+	<div> <!-- en cuadrado -->
+		<p class="texto">El diseño es mucho más que algo lindo o estetico. Es esencial poder lograr crear una marca coherente para su negocio que muestre su estilo e historia individuales.Se trata de encontrar lo que es único en su empresa y comunicarlo a través de elecciones de diseño cuidadosas.
+		Siempre incorporamos elementos como fuentes e ilustraciones dibujadas a mano para darle a su empresa esa ventaja extra única que necesita para destacarse y decirle a sus clientes exactamente quién es usted y qué está aquí para hacer. Conoce algunas de nuestras propuestas!</p>
+	</div>
+	<div>
+		<p class="subtitulo">¿Quienes somos?</p>
+		<p class="texto">Somos un equipo de profecionales con mucho entusiasmo queriendo ayudar a startups para que le den vida a sus proyectos. ¡No necesitan un gran presupuesto para crear una marca única que se dirija directamente a sus clientes! Lo que sí se necesita creatividad, pasión, habilidad y experiencia, y eso es exactamente lo que proponemos.
+		Llevamos más de 5 años diseñando y hoy nos apasiona tanto como el primer día. Juntos podemos crear un diseño para tu empresa que el mundo no haya visto antes.
+		¿Entonces, Qué esperas? </p>
+	</div>
+	<div class="flex-container media">
+  		<div class="flex-item1">
+  			<p><strong>Web Design</strong></p>
+  			<p>Un sitio web atraerá a tus futuros clientes y establecerá tu posicionamiento en el mercado. Creamos sitios web personalizados que se adaptaran perfectamente a las necesidades de su negocio y te ayudaran a convertir los navegadores en compradores. Tu sitio web será atractivo, llamativo, fácil de navegar y reflejará su marca, valores y mision.</p>
+  		</div>
+  		<div class="flex-item2">
+  			<p><strong>Graphic design</strong></p>
+  			<p>Podemos lograr que muestres tu marca con recursos gráficos en redes sociales, tarjetas de presentación y folletos. Los diseños gráficos de apoyo son una excelente manera de comercializar y promover tu negocio, servicios o productos. También te ayudaran a destacarte en tu nicho de mercado</p>
+  		</div>
+  		<div class="flex-item1">
+  			<p><strong>Branding & identity</strong></p>
+  			<p>Si estas comenzando un negocio o queres posicionar tu marca, trabajar con <strong>BERNA</strong> te ayudará a destacarte entre la multitud y atraer directamente a sus clientes ideales. Juntos, crearemos una estrategia sincera combinada con un diseño llamativo dedicado a proyectar su visión, pasión y personalidad al mundo.</p>
+  		</div>
+	</div>
+	<div id="box1" class="border">
+		<p>NUESTRO NEWSLETTER</p>
+		<p>¡Suscríbete a nuestro boletín mensual para recibir regalos, inspiración y ofertas exclusivas!</p>
+		<form class="row g-3">
+  <div class="col-md-4">
+    <label for="validationServer01" class="form-label">Nombre completo</label>
+    <input type="text" class="form-control" id="validationServer01" placeholder="Nombre completo" required>
+  </div>
+  <div class="col-md-4">
+    <label for="validationServer02" class="form-label">Email</label>
+    <input type="email" class="form-control" id="validationServer02" placeholder="Email" required>
+  </div>
+  <div class="col-md-3">
+    <label for="validationServer04" class="form-label">País</label>
+    <select class="form-select is-invalid" id="validationServer04"required>
+      <option selected disabled value="">Seleccione un país</option>
+      <option>Argentina</option>
+      <option>Chile</option>
+      <option>Peru</option>
+      <option>Brasil</option>
+      <option>Uruguay</option>
+    </select>
+</div>
+  <div class="col-12">
+    <button class="btn btn-primary" type="submit">Submit form</button>
+  </div>
+</div>
+</form>
+</div>
+	<!--crear redes-->
+	<div class="box decoracion">
+		<p>Redes Sociales</p>
+		<div>
+			<p><a href="https://www.facebook.com/" target="_black" i class="fab fa-facebook decoracion"></i> Facebook</a></p>
+			<p><a href="https://www.instagram.com/" target="_black" i class="fab fa-instagram decoracion"></i> Instagram</a></p>
+		</div>
+	</div>
+
+
+
+
+	<script src="js/wow.js"></script>
+    	<script>
+    	new WOW().init();
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 </html>
