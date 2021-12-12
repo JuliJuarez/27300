@@ -3,18 +3,27 @@
 
 .titulo {
 	font-family: 'Poppins';
-	font-size: calc(1.5em + 1.5vw);
-	line-height: 2em;
 	font-style: normal;
 	color: white;
 	text-align: center;
-	height: 40vh;
 	background-image: url('../imagenes/home5.png');
 	background-repeat: no-repeat;
 	background-position: center;
 	text-align: center;
 	background-size: cover;
 	padding: 150px;
+	@media screen and (max-width: 64em) {
+    font-size: 2.5em;
+  	}
+	@media screen and (max-width: 50em) {
+    font-size: 5em;
+	}
+	@media screen and (max-width: 30em){
+    font-size: 2em;
+	}
+	@media (min-width:768px){
+  	font-size: 5em;
+  	}
 }
 .subtitulo {
 	font-family: 'Poppins';
@@ -24,6 +33,7 @@
 	color: rgb(216, 58, 86);
 	text-align: center;
 	line-height: 1.5;
+	margin: 3%;
 }
 .texto {
 	font-family: 'Poppins';
@@ -32,6 +42,7 @@
 	font-style: normal;
 	color: black;
 	line-height: 1.5;
+	margin: 3%;
 }
 .menu{
 	background-color: rgb(212, 122, 232);
@@ -62,9 +73,6 @@
 	&:hover{
 		background-color: rgb(168, 236, 231);
 	}
-	.iconos{
-		float: right;
-	}
 }
 #box1 {
 	font-family: 'Poppins';
@@ -76,7 +84,6 @@
 	line-height: 1.5;
 	padding: 15px;
 	margin: 25px;
-	/*border:5px dashed pink;*/
 	background-image: url('../imagenes/fondo.png');
 }
 .border{
@@ -135,5 +142,17 @@
   	font-size: 18px;
   	border: -1;
   	}
+}
+.cuadro {
+	font-family: 'Poppins';
+	font-size: 30px;
+	font-weight: 450;
+	font-style: normal;
+	color: black;
+	text-align: center;
+	background-color: SkyBlue; 
+	line-height: 1.5;
+	padding: 15px;
+	margin: 25px;
 }
 
