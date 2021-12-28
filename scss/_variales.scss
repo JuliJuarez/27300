@@ -5,3 +5,27 @@
 	font-style: normal;
 	box-sizing: border-box;
 }
+$map: (
+	normal: 300,
+	bold: 500
+	);
+@mixin color {
+	background-color: rgb(168, 236, 231);
+}
+@mixin cuadrado{
+	text-decoration: none;
+	background-color: rgb(226, 194, 185);
+	padding: 35px 60px;
+	border-radius: 8px;
+	text-align: center;
+	margin: 20px auto;
+	width: 400px;
+	font-family: 'Poppins';
+	font-size: 20px;
+	font-weight: 500;
+}
+%letras{
+	font-family: 'Poppins';
+}
+/*$miMap: (light: 200, normal: 300, bold: 500);*/
+

@@ -6,7 +6,7 @@
 	font-style: normal;
 	color: white;
 	text-align: center;
-	background-image: url('../imagenes/home5.png');
+	background-image: url('../imagenes/imagen3.jpg');
 	background-repeat: no-repeat;
 	background-position: center;
 	text-align: center;
@@ -26,7 +26,7 @@
   	}
 }
 .subtitulo {
-	font-family: 'Poppins';
+	@extend %letras;
 	font-size: 35px;
 	font-weight: 400;
 	font-style: normal;
@@ -36,9 +36,9 @@
 	margin: 3%;
 }
 .texto {
-	font-family: 'Poppins';
+	@extend %letras;
 	font-size: 18px;
-	font-weight: 300;
+	font-weight: 500;
 	font-style: normal;
 	color: black;
 	line-height: 1.5;
@@ -71,13 +71,13 @@
 	}
 	ul li{
 	&:hover{
-		background-color: rgb(168, 236, 231);
+		@include color;
 	}
 }
 #box1 {
 	font-family: 'Poppins';
 	font-size: 20px;
-	font-weight: 500;
+	font-weight: map-get($map, bold);
 	font-style: normal;
 	color: black;
 	text-align: center;
@@ -96,16 +96,7 @@
     }
 }
 .box {
-	text-decoration: none;
-	background-color: rgb(226, 194, 185);
-	padding: 35px 60px;
-	border-radius: 8px;
-	text-align: center;
-	margin: 20px auto;
-	width: 400px;
-	font-family: 'Poppins';
-	font-size: 20px;
-	font-weight: 500;
+	@include cuadrado;
 }
 .flex-container {
   	display: flex;
@@ -155,4 +146,16 @@
 	padding: 15px;
 	margin: 25px;
 }
+.serv{
+	background-image: url('../imagenes/serv.png');
+	font-family: 'Poppins';
+	font-size: 20px;
+	font-weight: 500;
+	font-style: normal;
+	text-align: center;
+	line-height: 1.5;
+	padding: 15px;
+	margin: 25px;
+}
 
+ 
