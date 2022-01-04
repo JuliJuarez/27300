@@ -92,26 +92,45 @@
 }
 
 /* line 40, ../../../Desktop/27300/scss/servicios.scss */
+.card-category1 {
+  background-size: cover;
+  background-position: center;
+  height: 180px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  padding: 2.5px;
+  margin: 5px;
+}
+
+/* line 57, ../../../Desktop/27300/scss/servicios.scss */
 .img1 {
   background-image: url("../imagenes/servicios/desarrollo.jpg");
 }
 
-/* line 43, ../../../Desktop/27300/scss/servicios.scss */
+/* line 60, ../../../Desktop/27300/scss/servicios.scss */
 .img2 {
   background-image: url("../imagenes/servicios/codigo.jpg");
 }
 
-/* line 46, ../../../Desktop/27300/scss/servicios.scss */
+/* line 63, ../../../Desktop/27300/scss/servicios.scss */
 .img3 {
   background-image: url("../imagenes/servicios/calendario.jpg");
 }
 
-/* line 49, ../../../Desktop/27300/scss/servicios.scss */
+/* line 66, ../../../Desktop/27300/scss/servicios.scss */
 .img4 {
   background-image: url("../imagenes/servicios/trabajo.jpg");
 }
 
-/* line 52, ../../../Desktop/27300/scss/servicios.scss */
+/* line 69, ../../../Desktop/27300/scss/servicios.scss */
 .flash {
   padding: 16px 24px;
   display: flex;
@@ -123,22 +142,22 @@
   margin: 8px;
 }
 
-/* line 62, ../../../Desktop/27300/scss/servicios.scss */
+/* line 79, ../../../Desktop/27300/scss/servicios.scss */
 .flash-success {
   border: 2px solid #1EDD88;
 }
 
-/* line 65, ../../../Desktop/27300/scss/servicios.scss */
+/* line 82, ../../../Desktop/27300/scss/servicios.scss */
 .flash-warning {
   border: 2px solid #FFC65A;
 }
 
-/* line 68, ../../../Desktop/27300/scss/servicios.scss */
+/* line 85, ../../../Desktop/27300/scss/servicios.scss */
 .flash-danger {
   border: 2px solid #FD1015;
 }
 
-/* line 71, ../../../Desktop/27300/scss/servicios.scss */
+/* line 88, ../../../Desktop/27300/scss/servicios.scss */
 .texto2 {
   font-size: 18px;
   font-weight: 500;
@@ -364,7 +383,7 @@ ul li:hover {
   line-height: 1.5;
   padding: 15px;
   margin: 25px;
-  background-image: url("../imagenes/fondo.png");
+  background-color: #FAEDC6;
 }
 
 /* line 95, ../../../Desktop/27300/scss/estilos.scss */
