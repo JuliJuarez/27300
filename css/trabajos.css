@@ -1,0 +1,39 @@
+/* line 1, ../../../Desktop/27300/scss/trabajos.scss */
+.card-product {
+  overflow: hidden;
+  height: 120px;
+  background: white;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  display: flex;
+  align-items: center;
+}
+
+/* line 9, ../../../Desktop/27300/scss/trabajos.scss */
+.card-producto img {
+  height: 100%;
+  width: 120px;
+  object-fit: cover;
+}
+
+/* line 13, ../../../Desktop/27300/scss/trabajos.scss */
+.card-producto img h2 {
+  font-size: 16px;
+  font-weight: bold;
+  margin: 0;
+}
+
+/* line 18, ../../../Desktop/27300/scss/trabajos.scss */
+.card-producto img p {
+  font-size: 12px;
+  line-height: 1.4;
+  opacity: .7;
+  margin-bottom: 0;
+  margin-top: 8px;
+}
+
+/* line 26, ../../../Desktop/27300/scss/trabajos.scss */
+.card-product .card-product-infos {
+  padding: 16px;
+}
+
+/*# sourceMappingURL=trabajos.css.map */

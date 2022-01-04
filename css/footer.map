@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "footer.css",
+	"sources": [
+		"../scss/footer.scss"
+	],
+	"sourcesContent": [
+		".footer {\r\n  background: #F4F4F4;\r\n  display: flex;\r\n  align-items: center;\r\n  justify-content: space-between;\r\n  height: 100px;\r\n  padding: 0px 50px;\r\n  color: rgba(0,0,0,0.3);\r\n}\r\n.footer-links {\r\n  display: flex;\r\n  align-items: center;\r\n}\r\n.footer-links a {\r\n  color: black;\r\n  opacity: 0.15;\r\n  text-decoration: none;\r\n  font-size: 24px;\r\n  padding: 0px 10px;\r\n}\r\n.footer-links a:hover {\r\n  opacity: 1;\r\n}\r\n.footer .fa-heart {\r\n  color: #D23333;\r\n}\r\n"
+	],
+	"names": [],
+	"mappings": ";AAAA,AAAA,OAAO,CAAC;EACN,UAAU,EAAE,OAAO;EACnB,OAAO,EAAE,IAAI;EACb,WAAW,EAAE,MAAM;EACnB,eAAe,EAAE,aAAa;EAC9B,MAAM,EAAE,KAAK;EACb,OAAO,EAAE,QAAQ;EACjB,KAAK,EAAE,kBAAe;CACvB;;;AACD,AAAA,aAAa,CAAC;EACZ,OAAO,EAAE,IAAI;EACb,WAAW,EAAE,MAAM;CACpB;;;AACD,AAAA,aAAa,CAAC,CAAC,CAAC;EACd,KAAK,EAAE,KAAK;EACZ,OAAO,EAAE,IAAI;EACb,eAAe,EAAE,IAAI;EACrB,SAAS,EAAE,IAAI;EACf,OAAO,EAAE,QAAQ;CAClB;;;AACD,AAAA,aAAa,CAAC,CAAC,AAAA,MAAM,CAAC;EACpB,OAAO,EAAE,CAAC;CACX;;;AACD,AAAA,OAAO,CAAC,SAAS,CAAC;EAChB,KAAK,EAAE,OAAO;CACf"
+}

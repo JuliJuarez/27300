@@ -1,12 +1,15 @@
 @import "variales";
+@import "servicios";
+@import "footer";
+@import "trabajos";
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,500;1,300&display=swap');
 
 .titulo {
 	font-family: 'Poppins';
 	font-style: normal;
-	color: white;
+	color: #191A19;
 	text-align: center;
-	background-image: url('../imagenes/imagen3.jpg');
+	background-image: url('../imagenes/bannerr.jpg');
 	background-repeat: no-repeat;
 	background-position: center;
 	text-align: center;
@@ -146,16 +149,6 @@
 	padding: 15px;
 	margin: 25px;
 }
-.serv{
-	background-image: url('../imagenes/serv.png');
-	font-family: 'Poppins';
-	font-size: 20px;
-	font-weight: 500;
-	font-style: normal;
-	text-align: center;
-	line-height: 1.5;
-	padding: 15px;
-	margin: 25px;
+.icono{
+	background-image: url('../imagenes/icono.jpg');
 }
-
- 

@@ -1,0 +1,80 @@
+@import "variales";
+.cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 16px;
+  @media (min-width: 100px) and (max-width: 575px) {
+    grid-template-columns: 1fr;
+  }
+  @media (min-width: 576px) {
+      grid-template-columns: 1fr;
+    }
+  @media (min-width: 768px) {
+    grid-template-columns: 1fr 1fr;
+  }
+  @media (min-width: 992px) {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  @media (min-width: 1200px) {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+.card-category {
+  background-size: cover;
+  background-position: center;
+  height: 180px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  border-radius: 5px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  padding: 2.5px;
+  margin: 5px;
+  color: #EDEDED;
+}
+.img1{
+  background-image: url('../imagenes/servicios/desarrollo.jpg');
+  }
+.img2{
+  background-image: url('../imagenes/servicios/codigo.jpg');
+}
+.img3{
+  background-image: url('../imagenes/servicios/calendario.jpg');
+}
+.img4{
+  background-image: url('../imagenes/servicios/trabajo.jpg');
+}
+.flash {
+  padding: 16px 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: white;
+  box-shadow: 0 0 8px rgba(0,0,0,0.2);
+  border-radius: 4px;
+  margin: 8px;
+}
+.flash-success {
+  border: 2px solid #1EDD88;
+}
+.flash-warning {
+  border: 2px solid #FFC65A;
+}
+.flash-danger {
+  border: 2px solid #FD1015;
+}
+.texto2 {
+  @extend %letras;
+  font-size: 18px;
+  font-weight: 500;
+  font-style: normal;
+  color: black;
+  line-height: 1.5;
+  margin: 3%;
+  text-align: center;
+}

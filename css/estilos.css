@@ -9,18 +9,227 @@
 }
 
 /* line 27, ../../../Desktop/27300/scss/_variales.scss */
-.subtitulo, .texto {
+.texto2, .subtitulo, .texto {
   font-family: 'Poppins';
 }
 
 /*$miMap: (light: 200, normal: 300, bold: 500);*/
-/* line 4, ../../../Desktop/27300/scss/estilos.scss */
+/* line 1, ../../../Desktop/27300/scss/_variales.scss */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins';
+  font-style: normal;
+  box-sizing: border-box;
+}
+
+/* line 27, ../../../Desktop/27300/scss/_variales.scss */
+.texto2, .subtitulo, .texto {
+  font-family: 'Poppins';
+}
+
+/*$miMap: (light: 200, normal: 300, bold: 500);*/
+/* line 2, ../../../Desktop/27300/scss/servicios.scss */
+.cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 16px;
+}
+
+@media (min-width: 100px) and (max-width: 575px) {
+  /* line 2, ../../../Desktop/27300/scss/servicios.scss */
+  .cards {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (min-width: 576px) {
+  /* line 2, ../../../Desktop/27300/scss/servicios.scss */
+  .cards {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (min-width: 768px) {
+  /* line 2, ../../../Desktop/27300/scss/servicios.scss */
+  .cards {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (min-width: 992px) {
+  /* line 2, ../../../Desktop/27300/scss/servicios.scss */
+  .cards {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+@media (min-width: 1200px) {
+  /* line 2, ../../../Desktop/27300/scss/servicios.scss */
+  .cards {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+/* line 22, ../../../Desktop/27300/scss/servicios.scss */
+.card-category {
+  background-size: cover;
+  background-position: center;
+  height: 180px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  padding: 2.5px;
+  margin: 5px;
+  color: #EDEDED;
+}
+
+/* line 40, ../../../Desktop/27300/scss/servicios.scss */
+.img1 {
+  background-image: url("../imagenes/servicios/desarrollo.jpg");
+}
+
+/* line 43, ../../../Desktop/27300/scss/servicios.scss */
+.img2 {
+  background-image: url("../imagenes/servicios/codigo.jpg");
+}
+
+/* line 46, ../../../Desktop/27300/scss/servicios.scss */
+.img3 {
+  background-image: url("../imagenes/servicios/calendario.jpg");
+}
+
+/* line 49, ../../../Desktop/27300/scss/servicios.scss */
+.img4 {
+  background-image: url("../imagenes/servicios/trabajo.jpg");
+}
+
+/* line 52, ../../../Desktop/27300/scss/servicios.scss */
+.flash {
+  padding: 16px 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: white;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+  margin: 8px;
+}
+
+/* line 62, ../../../Desktop/27300/scss/servicios.scss */
+.flash-success {
+  border: 2px solid #1EDD88;
+}
+
+/* line 65, ../../../Desktop/27300/scss/servicios.scss */
+.flash-warning {
+  border: 2px solid #FFC65A;
+}
+
+/* line 68, ../../../Desktop/27300/scss/servicios.scss */
+.flash-danger {
+  border: 2px solid #FD1015;
+}
+
+/* line 71, ../../../Desktop/27300/scss/servicios.scss */
+.texto2 {
+  font-size: 18px;
+  font-weight: 500;
+  font-style: normal;
+  color: black;
+  line-height: 1.5;
+  margin: 3%;
+  text-align: center;
+}
+
+/* line 1, ../../../Desktop/27300/scss/footer.scss */
+.footer {
+  background: #F4F4F4;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100px;
+  padding: 0px 50px;
+  color: rgba(0, 0, 0, 0.3);
+}
+
+/* line 10, ../../../Desktop/27300/scss/footer.scss */
+.footer-links {
+  display: flex;
+  align-items: center;
+}
+
+/* line 14, ../../../Desktop/27300/scss/footer.scss */
+.footer-links a {
+  color: black;
+  opacity: 0.15;
+  text-decoration: none;
+  font-size: 24px;
+  padding: 0px 10px;
+}
+
+/* line 21, ../../../Desktop/27300/scss/footer.scss */
+.footer-links a:hover {
+  opacity: 1;
+}
+
+/* line 24, ../../../Desktop/27300/scss/footer.scss */
+.footer .fa-heart {
+  color: #D23333;
+}
+
+/* line 1, ../../../Desktop/27300/scss/trabajos.scss */
+.card-product {
+  overflow: hidden;
+  height: 120px;
+  background: white;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  display: flex;
+  align-items: center;
+}
+
+/* line 9, ../../../Desktop/27300/scss/trabajos.scss */
+.card-producto img {
+  height: 100%;
+  width: 120px;
+  object-fit: cover;
+}
+
+/* line 13, ../../../Desktop/27300/scss/trabajos.scss */
+.card-producto img h2 {
+  font-size: 16px;
+  font-weight: bold;
+  margin: 0;
+}
+
+/* line 18, ../../../Desktop/27300/scss/trabajos.scss */
+.card-producto img p {
+  font-size: 12px;
+  line-height: 1.4;
+  opacity: .7;
+  margin-bottom: 0;
+  margin-top: 8px;
+}
+
+/* line 26, ../../../Desktop/27300/scss/trabajos.scss */
+.card-product .card-product-infos {
+  padding: 16px;
+}
+
+/* line 7, ../../../Desktop/27300/scss/estilos.scss */
 .titulo {
   font-family: 'Poppins';
   font-style: normal;
-  color: white;
+  color: #191A19;
   text-align: center;
-  background-image: url("../imagenes/imagen3.jpg");
+  background-image: url("../imagenes/bannerr.jpg");
   background-repeat: no-repeat;
   background-position: center;
   text-align: center;
@@ -29,34 +238,34 @@
 }
 
 @media screen and (max-width: 64em) {
-  /* line 4, ../../../Desktop/27300/scss/estilos.scss */
+  /* line 7, ../../../Desktop/27300/scss/estilos.scss */
   .titulo {
     font-size: 2.5em;
   }
 }
 
 @media screen and (max-width: 50em) {
-  /* line 4, ../../../Desktop/27300/scss/estilos.scss */
+  /* line 7, ../../../Desktop/27300/scss/estilos.scss */
   .titulo {
     font-size: 5em;
   }
 }
 
 @media screen and (max-width: 30em) {
-  /* line 4, ../../../Desktop/27300/scss/estilos.scss */
+  /* line 7, ../../../Desktop/27300/scss/estilos.scss */
   .titulo {
     font-size: 2em;
   }
 }
 
 @media (min-width: 768px) {
-  /* line 4, ../../../Desktop/27300/scss/estilos.scss */
+  /* line 7, ../../../Desktop/27300/scss/estilos.scss */
   .titulo {
     font-size: 5em;
   }
 }
 
-/* line 28, ../../../Desktop/27300/scss/estilos.scss */
+/* line 31, ../../../Desktop/27300/scss/estilos.scss */
 .subtitulo {
   font-size: 35px;
   font-weight: 400;
@@ -67,7 +276,7 @@
   margin: 3%;
 }
 
-/* line 38, ../../../Desktop/27300/scss/estilos.scss */
+/* line 41, ../../../Desktop/27300/scss/estilos.scss */
 .texto {
   font-size: 18px;
   font-weight: 500;
@@ -77,7 +286,7 @@
   margin: 3%;
 }
 
-/* line 47, ../../../Desktop/27300/scss/estilos.scss */
+/* line 50, ../../../Desktop/27300/scss/estilos.scss */
 .menu {
   background-color: #d47ae8;
   float: center;
@@ -85,19 +294,19 @@
   text-align: center;
 }
 
-/* line 53, ../../../Desktop/27300/scss/estilos.scss */
+/* line 56, ../../../Desktop/27300/scss/estilos.scss */
 ul {
   list-style: none;
   margin: 0;
   padding: 0;
 }
 
-/* line 58, ../../../Desktop/27300/scss/estilos.scss */
+/* line 61, ../../../Desktop/27300/scss/estilos.scss */
 ul li {
   display: inline-block;
 }
 
-/* line 61, ../../../Desktop/27300/scss/estilos.scss */
+/* line 64, ../../../Desktop/27300/scss/estilos.scss */
 ul li a {
   text-decoration: none;
   color: black;
@@ -110,12 +319,12 @@ ul li a {
   font-style: normal;
 }
 
-/* line 73, ../../../Desktop/27300/scss/estilos.scss */
+/* line 76, ../../../Desktop/27300/scss/estilos.scss */
 ul li:hover {
   background-color: #a8ece7;
 }
 
-/* line 77, ../../../Desktop/27300/scss/estilos.scss */
+/* line 80, ../../../Desktop/27300/scss/estilos.scss */
 #box1 {
   font-family: 'Poppins';
   font-size: 20px;
@@ -129,20 +338,20 @@ ul li:hover {
   background-image: url("../imagenes/fondo.png");
 }
 
-/* line 89, ../../../Desktop/27300/scss/estilos.scss */
+/* line 92, ../../../Desktop/27300/scss/estilos.scss */
 .border {
   outline: 10px dashed pink;
   box-shadow: 0px 0px 0px 10px magenta;
   transition: all 1s;
 }
 
-/* line 93, ../../../Desktop/27300/scss/estilos.scss */
+/* line 96, ../../../Desktop/27300/scss/estilos.scss */
 .border:hover {
   outline-color: pink;
   box-shadow: 0 0 0 10px SkyBlue;
 }
 
-/* line 98, ../../../Desktop/27300/scss/estilos.scss */
+/* line 101, ../../../Desktop/27300/scss/estilos.scss */
 .box {
   text-decoration: none;
   background-color: #e2c2b9;
@@ -156,7 +365,7 @@ ul li:hover {
   font-weight: 500;
 }
 
-/* line 101, ../../../Desktop/27300/scss/estilos.scss */
+/* line 104, ../../../Desktop/27300/scss/estilos.scss */
 .flex-container {
   display: flex;
   background-image: url("../imagenes/fondo.png");
@@ -165,7 +374,7 @@ ul li:hover {
   flex-direction: row;
 }
 
-/* line 107, ../../../Desktop/27300/scss/estilos.scss */
+/* line 110, ../../../Desktop/27300/scss/estilos.scss */
 .flex-container .flex-item1 {
   background-color: white;
   width: 90%;
@@ -176,7 +385,7 @@ ul li:hover {
   font-size: 18px;
 }
 
-/* line 116, ../../../Desktop/27300/scss/estilos.scss */
+/* line 119, ../../../Desktop/27300/scss/estilos.scss */
 .flex-container .flex-item2 {
   background-color: white;
   width: 90%;
@@ -188,7 +397,7 @@ ul li:hover {
   border: -1;
 }
 
-/* line 126, ../../../Desktop/27300/scss/estilos.scss */
+/* line 129, ../../../Desktop/27300/scss/estilos.scss */
 .flex-container .flex-item3 {
   background-color: white;
   width: 90%;
@@ -200,7 +409,7 @@ ul li:hover {
   border: -1;
 }
 
-/* line 137, ../../../Desktop/27300/scss/estilos.scss */
+/* line 140, ../../../Desktop/27300/scss/estilos.scss */
 .cuadro {
   font-family: 'Poppins';
   font-size: 30px;
@@ -214,17 +423,9 @@ ul li:hover {
   margin: 25px;
 }
 
-/* line 149, ../../../Desktop/27300/scss/estilos.scss */
-.serv {
-  background-image: url("../imagenes/serv.png");
-  font-family: 'Poppins';
-  font-size: 20px;
-  font-weight: 500;
-  font-style: normal;
-  text-align: center;
-  line-height: 1.5;
-  padding: 15px;
-  margin: 25px;
+/* line 152, ../../../Desktop/27300/scss/estilos.scss */
+.icono {
+  background-image: url("../imagenes/icono.jpg");
 }
 
 /*# sourceMappingURL=estilos.css.map */

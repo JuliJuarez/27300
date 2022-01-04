@@ -1,0 +1,136 @@
+/* line 1, ../../../Desktop/27300/scss/_variales.scss */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins';
+  font-style: normal;
+  box-sizing: border-box;
+}
+
+/* line 27, ../../../Desktop/27300/scss/_variales.scss */
+.texto2 {
+  font-family: 'Poppins';
+}
+
+/*$miMap: (light: 200, normal: 300, bold: 500);*/
+/* line 2, ../../../Desktop/27300/scss/servicios.scss */
+.cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 16px;
+}
+
+@media (min-width: 100px) and (max-width: 575px) {
+  /* line 2, ../../../Desktop/27300/scss/servicios.scss */
+  .cards {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (min-width: 576px) {
+  /* line 2, ../../../Desktop/27300/scss/servicios.scss */
+  .cards {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (min-width: 768px) {
+  /* line 2, ../../../Desktop/27300/scss/servicios.scss */
+  .cards {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (min-width: 992px) {
+  /* line 2, ../../../Desktop/27300/scss/servicios.scss */
+  .cards {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+@media (min-width: 1200px) {
+  /* line 2, ../../../Desktop/27300/scss/servicios.scss */
+  .cards {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+/* line 22, ../../../Desktop/27300/scss/servicios.scss */
+.card-category {
+  background-size: cover;
+  background-position: center;
+  height: 180px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  padding: 2.5px;
+  margin: 5px;
+  color: #EDEDED;
+}
+
+/* line 40, ../../../Desktop/27300/scss/servicios.scss */
+.img1 {
+  background-image: url("../imagenes/servicios/desarrollo.jpg");
+}
+
+/* line 43, ../../../Desktop/27300/scss/servicios.scss */
+.img2 {
+  background-image: url("../imagenes/servicios/codigo.jpg");
+}
+
+/* line 46, ../../../Desktop/27300/scss/servicios.scss */
+.img3 {
+  background-image: url("../imagenes/servicios/calendario.jpg");
+}
+
+/* line 49, ../../../Desktop/27300/scss/servicios.scss */
+.img4 {
+  background-image: url("../imagenes/servicios/trabajo.jpg");
+}
+
+/* line 52, ../../../Desktop/27300/scss/servicios.scss */
+.flash {
+  padding: 16px 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: white;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+  margin: 8px;
+}
+
+/* line 62, ../../../Desktop/27300/scss/servicios.scss */
+.flash-success {
+  border: 2px solid #1EDD88;
+}
+
+/* line 65, ../../../Desktop/27300/scss/servicios.scss */
+.flash-warning {
+  border: 2px solid #FFC65A;
+}
+
+/* line 68, ../../../Desktop/27300/scss/servicios.scss */
+.flash-danger {
+  border: 2px solid #FD1015;
+}
+
+/* line 71, ../../../Desktop/27300/scss/servicios.scss */
+.texto2 {
+  font-size: 18px;
+  font-weight: 500;
+  font-style: normal;
+  color: black;
+  line-height: 1.5;
+  margin: 3%;
+  text-align: center;
+}
+
+/*# sourceMappingURL=servicios.css.map */

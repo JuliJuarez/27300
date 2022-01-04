@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "trabajos.css",
+	"sources": [
+		"../scss/trabajos.scss"
+	],
+	"sourcesContent": [
+		".card-product {\r\n  overflow: hidden;\r\n  height: 120px;\r\n  background: white;\r\n  box-shadow: 0 0 15px rgba(0,0,0,0.2);\r\n  display: flex;\r\n  align-items: center;\r\n}\r\n.card-producto img {\r\n  height: 100%;\r\n  width: 120px;\r\n  object-fit: cover;\r\n  h2 {\r\n  font-size: 16px;\r\n  font-weight: bold;\r\n  margin: 0;\r\n  }\r\n  p {\r\n  font-size: 12px;\r\n  line-height: 1.4;\r\n  opacity: .7;\r\n  margin-bottom: 0;\r\n  margin-top: 8px;\r\n}\r\n}\r\n.card-product .card-product-infos {\r\n  padding: 16px;\r\n}\r\n"
+	],
+	"names": [],
+	"mappings": ";AAAA,AAAA,aAAa,CAAC;EACZ,QAAQ,EAAE,MAAM;EAChB,MAAM,EAAE,KAAK;EACb,UAAU,EAAE,KAAK;EACjB,UAAU,EAAE,CAAC,CAAC,CAAC,CAAC,IAAI,CAAC,kBAAe;EACpC,OAAO,EAAE,IAAI;EACb,WAAW,EAAE,MAAM;CACpB;;;AACD,AAAA,cAAc,CAAC,GAAG,CAAC;EACjB,MAAM,EAAE,IAAI;EACZ,KAAK,EAAE,KAAK;EACZ,UAAU,EAAE,KAAK;CAalB;;;AAhBD,AAIE,cAJY,CAAC,GAAG,CAIhB,EAAE,CAAC;EACH,SAAS,EAAE,IAAI;EACf,WAAW,EAAE,IAAI;EACjB,MAAM,EAAE,CAAC;CACR;;;AARH,AASE,cATY,CAAC,GAAG,CAShB,CAAC,CAAC;EACF,SAAS,EAAE,IAAI;EACf,WAAW,EAAE,GAAG;EAChB,OAAO,EAAE,EAAE;EACX,aAAa,EAAE,CAAC;EAChB,UAAU,EAAE,GAAG;CAChB;;;AAED,AAAA,aAAa,CAAC,mBAAmB,CAAC;EAChC,OAAO,EAAE,IAAI;CACd"
+}
