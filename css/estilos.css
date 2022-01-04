@@ -188,42 +188,69 @@
 /* line 1, ../../../Desktop/27300/scss/trabajos.scss */
 .card-product {
   overflow: hidden;
-  height: 120px;
   background: white;
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
   display: flex;
-  align-items: center;
 }
 
-/* line 9, ../../../Desktop/27300/scss/trabajos.scss */
-.card-producto img {
+/* line 6, ../../../Desktop/27300/scss/trabajos.scss */
+.card-product img {
   height: 100%;
   width: 120px;
   object-fit: cover;
 }
 
-/* line 13, ../../../Desktop/27300/scss/trabajos.scss */
-.card-producto img h2 {
-  font-size: 16px;
+/* line 11, ../../../Desktop/27300/scss/trabajos.scss */
+.card-product h2 {
+  font-size: 20px;
   font-weight: bold;
   margin: 0;
 }
 
-/* line 18, ../../../Desktop/27300/scss/trabajos.scss */
-.card-producto img p {
-  font-size: 12px;
+/* line 16, ../../../Desktop/27300/scss/trabajos.scss */
+.card-product p {
+  font-size: 18px;
   line-height: 1.4;
   opacity: .7;
   margin-bottom: 0;
   margin-top: 8px;
 }
 
-/* line 26, ../../../Desktop/27300/scss/trabajos.scss */
+/* line 24, ../../../Desktop/27300/scss/trabajos.scss */
+.ajuste {
+  margin: 5px;
+  padding: 5px;
+}
+
+/* line 29, ../../../Desktop/27300/scss/trabajos.scss */
 .card-product .card-product-infos {
   padding: 16px;
 }
 
-/* line 7, ../../../Desktop/27300/scss/estilos.scss */
+/* line 32, ../../../Desktop/27300/scss/trabajos.scss */
+.avatar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+  padding: 5px;
+}
+
+/* line 39, ../../../Desktop/27300/scss/trabajos.scss */
+.avatars {
+  width: 83px;
+  border-radius: 50%;
+  padding: 1px;
+}
+
+/* line 1, ../../../Desktop/27300/scss/_contacto.scss */
+.formulario {
+  margin: 20px;
+  padding: 5px;
+  text-align: center;
+}
+
+/* line 8, ../../../Desktop/27300/scss/estilos.scss */
 .titulo {
   font-family: 'Poppins';
   font-style: normal;
@@ -238,34 +265,34 @@
 }
 
 @media screen and (max-width: 64em) {
-  /* line 7, ../../../Desktop/27300/scss/estilos.scss */
+  /* line 8, ../../../Desktop/27300/scss/estilos.scss */
   .titulo {
     font-size: 2.5em;
   }
 }
 
 @media screen and (max-width: 50em) {
-  /* line 7, ../../../Desktop/27300/scss/estilos.scss */
+  /* line 8, ../../../Desktop/27300/scss/estilos.scss */
   .titulo {
     font-size: 5em;
   }
 }
 
 @media screen and (max-width: 30em) {
-  /* line 7, ../../../Desktop/27300/scss/estilos.scss */
+  /* line 8, ../../../Desktop/27300/scss/estilos.scss */
   .titulo {
     font-size: 2em;
   }
 }
 
 @media (min-width: 768px) {
-  /* line 7, ../../../Desktop/27300/scss/estilos.scss */
+  /* line 8, ../../../Desktop/27300/scss/estilos.scss */
   .titulo {
     font-size: 5em;
   }
 }
 
-/* line 31, ../../../Desktop/27300/scss/estilos.scss */
+/* line 32, ../../../Desktop/27300/scss/estilos.scss */
 .subtitulo {
   font-size: 35px;
   font-weight: 400;
@@ -273,40 +300,42 @@
   color: #d83a56;
   text-align: center;
   line-height: 1.5;
-  margin: 3%;
+  margin: 1%;
 }
 
-/* line 41, ../../../Desktop/27300/scss/estilos.scss */
+/* line 42, ../../../Desktop/27300/scss/estilos.scss */
 .texto {
   font-size: 18px;
   font-weight: 500;
   font-style: normal;
   color: black;
   line-height: 1.5;
-  margin: 3%;
+  margin: 2%;
 }
 
-/* line 50, ../../../Desktop/27300/scss/estilos.scss */
+/* line 51, ../../../Desktop/27300/scss/estilos.scss */
 .menu {
   background-color: #d47ae8;
   float: center;
   align-content: center;
   text-align: center;
+  margin: 10px;
+  padding: 0px;
 }
 
-/* line 56, ../../../Desktop/27300/scss/estilos.scss */
+/* line 59, ../../../Desktop/27300/scss/estilos.scss */
 ul {
   list-style: none;
   margin: 0;
   padding: 0;
 }
 
-/* line 61, ../../../Desktop/27300/scss/estilos.scss */
+/* line 64, ../../../Desktop/27300/scss/estilos.scss */
 ul li {
   display: inline-block;
 }
 
-/* line 64, ../../../Desktop/27300/scss/estilos.scss */
+/* line 67, ../../../Desktop/27300/scss/estilos.scss */
 ul li a {
   text-decoration: none;
   color: black;
@@ -319,12 +348,12 @@ ul li a {
   font-style: normal;
 }
 
-/* line 76, ../../../Desktop/27300/scss/estilos.scss */
+/* line 79, ../../../Desktop/27300/scss/estilos.scss */
 ul li:hover {
   background-color: #a8ece7;
 }
 
-/* line 80, ../../../Desktop/27300/scss/estilos.scss */
+/* line 83, ../../../Desktop/27300/scss/estilos.scss */
 #box1 {
   font-family: 'Poppins';
   font-size: 20px;
@@ -338,20 +367,20 @@ ul li:hover {
   background-image: url("../imagenes/fondo.png");
 }
 
-/* line 92, ../../../Desktop/27300/scss/estilos.scss */
+/* line 95, ../../../Desktop/27300/scss/estilos.scss */
 .border {
   outline: 10px dashed pink;
   box-shadow: 0px 0px 0px 10px magenta;
   transition: all 1s;
 }
 
-/* line 96, ../../../Desktop/27300/scss/estilos.scss */
+/* line 99, ../../../Desktop/27300/scss/estilos.scss */
 .border:hover {
   outline-color: pink;
   box-shadow: 0 0 0 10px SkyBlue;
 }
 
-/* line 101, ../../../Desktop/27300/scss/estilos.scss */
+/* line 104, ../../../Desktop/27300/scss/estilos.scss */
 .box {
   text-decoration: none;
   background-color: #e2c2b9;
@@ -365,7 +394,7 @@ ul li:hover {
   font-weight: 500;
 }
 
-/* line 104, ../../../Desktop/27300/scss/estilos.scss */
+/* line 107, ../../../Desktop/27300/scss/estilos.scss */
 .flex-container {
   display: flex;
   background-image: url("../imagenes/fondo.png");
@@ -374,7 +403,7 @@ ul li:hover {
   flex-direction: row;
 }
 
-/* line 110, ../../../Desktop/27300/scss/estilos.scss */
+/* line 113, ../../../Desktop/27300/scss/estilos.scss */
 .flex-container .flex-item1 {
   background-color: white;
   width: 90%;
@@ -385,7 +414,7 @@ ul li:hover {
   font-size: 18px;
 }
 
-/* line 119, ../../../Desktop/27300/scss/estilos.scss */
+/* line 122, ../../../Desktop/27300/scss/estilos.scss */
 .flex-container .flex-item2 {
   background-color: white;
   width: 90%;
@@ -397,7 +426,7 @@ ul li:hover {
   border: -1;
 }
 
-/* line 129, ../../../Desktop/27300/scss/estilos.scss */
+/* line 132, ../../../Desktop/27300/scss/estilos.scss */
 .flex-container .flex-item3 {
   background-color: white;
   width: 90%;
@@ -409,7 +438,7 @@ ul li:hover {
   border: -1;
 }
 
-/* line 140, ../../../Desktop/27300/scss/estilos.scss */
+/* line 143, ../../../Desktop/27300/scss/estilos.scss */
 .cuadro {
   font-family: 'Poppins';
   font-size: 30px;
@@ -423,9 +452,27 @@ ul li:hover {
   margin: 25px;
 }
 
-/* line 152, ../../../Desktop/27300/scss/estilos.scss */
+/* line 155, ../../../Desktop/27300/scss/estilos.scss */
 .icono {
   background-image: url("../imagenes/icono.jpg");
+}
+
+/* line 158, ../../../Desktop/27300/scss/estilos.scss */
+.avatar1 {
+  width: 48px;
+  position: fixed;
+  float: right;
+  top: -83px;
+  right: 0;
+  margin: 50px;
+  padding: 41px;
+}
+
+/* line 167, ../../../Desktop/27300/scss/estilos.scss */
+.avatars1 {
+  width: 48px;
+  border-radius: 50%;
+  padding: 1px;
 }
 
 /*# sourceMappingURL=estilos.css.map */

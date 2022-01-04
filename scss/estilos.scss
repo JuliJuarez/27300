@@ -2,6 +2,7 @@
 @import "servicios";
 @import "footer";
 @import "trabajos";
+@import "contacto";
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,500;1,300&display=swap');
 
 .titulo {
@@ -36,7 +37,7 @@
 	color: rgb(216, 58, 86);
 	text-align: center;
 	line-height: 1.5;
-	margin: 3%;
+	margin: 1%;
 }
 .texto {
 	@extend %letras;
@@ -45,13 +46,15 @@
 	font-style: normal;
 	color: black;
 	line-height: 1.5;
-	margin: 3%;
+	margin: 2%;
 }
 .menu{
 	background-color: rgb(212, 122, 232);
 	float: center;
 	align-content: center;
 	text-align: center;
+	margin: 10px;
+	padding: 0px;
 	}
 	ul{
 	list-style: none;
@@ -151,4 +154,18 @@
 }
 .icono{
 	background-image: url('../imagenes/icono.jpg');
+}
+.avatar1{
+	width:48px;
+	position:fixed;
+	float: right;
+	top: -83px;
+	right: 0;
+	margin: 50px;
+	padding: 41px;
+}
+.avatars1 {
+  width: 48px;
+  border-radius: 50%;
+  padding: 1px;
 }
