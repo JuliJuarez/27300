@@ -92,68 +92,8 @@
 	margin: 25px;
 	background-color: #D6E5FA;
 }
-.border{
-	outline: 10px dashed pink;
-    box-shadow: 0px 0px 0px 10px magenta;
-    transition: all 1s;
-    &:hover{
-    	outline-color: pink;
-    	box-shadow: 0 0 0 10px SkyBlue;
-    }
-}
 .box {
 	@include cuadrado;
-}
-.flex-container {
-  	display: flex;
-	background-image: url('../imagenes/fondo.png');
-  	justify-content: center;
-  	align-items: center;
- 	flex-direction: row;
-	.flex-item1 {
-  	background-color: white;
- 	width: 90%;
-  	margin: 20px;
-  	min-height: 50vh;
-  	text-align: center;
-  	line-height: 1.5;
-  	font-size: 18px;
-  	}
-	.flex-item2 {
- 	background-color: white;
-  	width: 90%;
-  	margin: 20px;
-  	min-height: 50vh;
-  	text-align: center;
-  	line-height: 1.5;
-  	font-size: 18px;
-  	border: -1;
-  	}
-  	.flex-item3 {
- 	background-color: white;
-  	width: 90%;
-  	margin: 20px;
-  	min-height: 50vh;
-  	text-align: center;
-  	line-height: 1.5;
-  	font-size: 18px;
-  	border: -1;
-  	}
-}
-.cuadro {
-	font-family: 'Poppins';
-	font-size: 30px;
-	font-weight: 450;
-	font-style: normal;
-	color: black;
-	text-align: center;
-	background-color: SkyBlue; 
-	line-height: 1.5;
-	padding: 15px;
-	margin: 25px;
-}
-.icono{
-	background-image: url('../imagenes/icono.jpg');
 }
 .avatar1{
 	width:48px;

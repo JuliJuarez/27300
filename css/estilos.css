@@ -387,19 +387,6 @@ ul li:hover {
 }
 
 /* line 95, ../../../Desktop/27300/scss/estilos.scss */
-.border {
-  outline: 10px dashed pink;
-  box-shadow: 0px 0px 0px 10px magenta;
-  transition: all 1s;
-}
-
-/* line 99, ../../../Desktop/27300/scss/estilos.scss */
-.border:hover {
-  outline-color: pink;
-  box-shadow: 0 0 0 10px SkyBlue;
-}
-
-/* line 104, ../../../Desktop/27300/scss/estilos.scss */
 .box {
   text-decoration: none;
   background-color: #e2c2b9;
@@ -413,70 +400,7 @@ ul li:hover {
   font-weight: 500;
 }
 
-/* line 107, ../../../Desktop/27300/scss/estilos.scss */
-.flex-container {
-  display: flex;
-  background-image: url("../imagenes/fondo.png");
-  justify-content: center;
-  align-items: center;
-  flex-direction: row;
-}
-
-/* line 113, ../../../Desktop/27300/scss/estilos.scss */
-.flex-container .flex-item1 {
-  background-color: white;
-  width: 90%;
-  margin: 20px;
-  min-height: 50vh;
-  text-align: center;
-  line-height: 1.5;
-  font-size: 18px;
-}
-
-/* line 122, ../../../Desktop/27300/scss/estilos.scss */
-.flex-container .flex-item2 {
-  background-color: white;
-  width: 90%;
-  margin: 20px;
-  min-height: 50vh;
-  text-align: center;
-  line-height: 1.5;
-  font-size: 18px;
-  border: -1;
-}
-
-/* line 132, ../../../Desktop/27300/scss/estilos.scss */
-.flex-container .flex-item3 {
-  background-color: white;
-  width: 90%;
-  margin: 20px;
-  min-height: 50vh;
-  text-align: center;
-  line-height: 1.5;
-  font-size: 18px;
-  border: -1;
-}
-
-/* line 143, ../../../Desktop/27300/scss/estilos.scss */
-.cuadro {
-  font-family: 'Poppins';
-  font-size: 30px;
-  font-weight: 450;
-  font-style: normal;
-  color: black;
-  text-align: center;
-  background-color: SkyBlue;
-  line-height: 1.5;
-  padding: 15px;
-  margin: 25px;
-}
-
-/* line 155, ../../../Desktop/27300/scss/estilos.scss */
-.icono {
-  background-image: url("../imagenes/icono.jpg");
-}
-
-/* line 158, ../../../Desktop/27300/scss/estilos.scss */
+/* line 98, ../../../Desktop/27300/scss/estilos.scss */
 .avatar1 {
   width: 48px;
   position: fixed;
@@ -487,24 +411,24 @@ ul li:hover {
   padding: 41px;
 }
 
-/* line 167, ../../../Desktop/27300/scss/estilos.scss */
+/* line 107, ../../../Desktop/27300/scss/estilos.scss */
 .avatars1 {
   width: 48px;
   border-radius: 50%;
   padding: 1px;
 }
 
-/* line 172, ../../../Desktop/27300/scss/estilos.scss */
+/* line 112, ../../../Desktop/27300/scss/estilos.scss */
 .img5 {
   background-image: url("../imagenes/img5.jpg");
 }
 
-/* line 175, ../../../Desktop/27300/scss/estilos.scss */
+/* line 115, ../../../Desktop/27300/scss/estilos.scss */
 .border1 {
   border: 1px solid black;
 }
 
-/* line 178, ../../../Desktop/27300/scss/estilos.scss */
+/* line 118, ../../../Desktop/27300/scss/estilos.scss */
 .cards2 {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -512,41 +436,41 @@ ul li:hover {
 }
 
 @media (min-width: 100px) and (max-width: 575px) {
-  /* line 178, ../../../Desktop/27300/scss/estilos.scss */
+  /* line 118, ../../../Desktop/27300/scss/estilos.scss */
   .cards2 {
     grid-template-columns: 1fr;
   }
 }
 
 @media (min-width: 576px) {
-  /* line 178, ../../../Desktop/27300/scss/estilos.scss */
+  /* line 118, ../../../Desktop/27300/scss/estilos.scss */
   .cards2 {
     grid-template-columns: 1fr;
   }
 }
 
 @media (min-width: 768px) {
-  /* line 178, ../../../Desktop/27300/scss/estilos.scss */
+  /* line 118, ../../../Desktop/27300/scss/estilos.scss */
   .cards2 {
     grid-template-columns: 1fr 1fr;
   }
 }
 
 @media (min-width: 992px) {
-  /* line 178, ../../../Desktop/27300/scss/estilos.scss */
+  /* line 118, ../../../Desktop/27300/scss/estilos.scss */
   .cards2 {
     grid-template-columns: 1fr 1fr 1fr;
   }
 }
 
 @media (min-width: 1200px) {
-  /* line 178, ../../../Desktop/27300/scss/estilos.scss */
+  /* line 118, ../../../Desktop/27300/scss/estilos.scss */
   .cards2 {
     grid-template-columns: 1fr 1fr 1fr;
   }
 }
 
-/* line 198, ../../../Desktop/27300/scss/estilos.scss */
+/* line 138, ../../../Desktop/27300/scss/estilos.scss */
 .card-category2 {
   font-family: 'Poppins';
   background-size: cover;
@@ -567,7 +491,7 @@ ul li:hover {
   background-image: url("../imagenes/fondo.jpg");
 }
 
-/* line 216, ../../../Desktop/27300/scss/estilos.scss */
+/* line 156, ../../../Desktop/27300/scss/estilos.scss */
 .card-category2:hover {
   opacity: 0.5;
 }
